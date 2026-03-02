@@ -36,7 +36,14 @@ El proyecto utiliza una base de datos relacional con tablas como:
 ## Capturas del Sistema
 
 ### Página Principal
-![Home](imagenes/home.png,home1.png,home2.png)
+<p align="center">
+  <img src="imagenes/home1.png" width="400">
+  <img src="imagenes/home2.png" width="400">
+</p>
+
+<p align="center">
+  <img src="imagenes/home3.png" width="400">
+</p>
 
 ### Panel de Comentarios
 ![Admin](imagenes/comentario.png)
