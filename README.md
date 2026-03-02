@@ -36,7 +36,7 @@ El proyecto utiliza una base de datos relacional con tablas como:
 ## Capturas del Sistema
 
 ### Página Principal
-![Home](imagenes/home.png)
+![Home](imagenes/home.png,home1.png,home2.png)
 
 ### Panel de Comentarios
 ![Admin](imagenes/comentario.png)
@@ -52,6 +52,14 @@ El proyecto utiliza una base de datos relacional con tablas como:
 
 ### Sistema de Subir Post
 ![Chat](imagenes/post.png)
+
+### Sistema de Carrito Funcional
+![Chat](imagenes/carrito.png)
+
+### Sistema de pago 
+![Chat](imagenes/pago.png)
+
+
 
 
 
