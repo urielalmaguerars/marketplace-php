@@ -38,11 +38,24 @@ El proyecto utiliza una base de datos relacional con tablas como:
 ### Página Principal
 ![Home](imagenes/home.png)
 
-### Panel de Administración
-![Admin](imagenes/admin.png)
+### Panel de Comentarios
+![Admin](imagenes/comentario.png)
 
 ### Sistema de Chat
 ![Chat](imagenes/chat.png)
+
+### Sistema de calificacion 
+![Chat](imagenes/calificacion.png)
+
+### Sistema de busqueda 
+![Chat](imagenes/busqueda.png)
+
+### Sistema de Subir Post
+![Chat](imagenes/post.png)
+
+
+
+
 
 ## Instalación
 
