@@ -37,13 +37,10 @@ El proyecto utiliza una base de datos relacional con tablas como:
 
 ### Página Principal
 <p align="center">
-  <img src="imagenes/home1.png" width="400">
-  <img src="imagenes/home2.png" width="400">
+  <img src="imagenes/home1.png" width="500">
+  <img src="imagenes/home2.png" width="500">
 </p>
 
-<p align="center">
-  <img src="imagenes/home3.png" width="400">
-</p>
 
 ### Panel de Comentarios
 ![Admin](imagenes/comentario.png)
@@ -54,8 +51,8 @@ El proyecto utiliza una base de datos relacional con tablas como:
 ### Sistema de calificacion 
 ![Chat](imagenes/calificacion.png)
 
-### Sistema de busqueda 
-![Chat](imagenes/busqueda.mp4)
+### Video de sistema de busqueda 
+[![Ver video](imagenes/video_busqueda.png)](https://www.youtube.com/watch?v=-shQEpLznq0)
 
 ### Sistema de Carrito Funcional
 ![Chat](imagenes/carrito.png)
