@@ -1,0 +1,246 @@
+Petición recibida: 2025-05-07 01:38:56
+FILES: Array
+(
+    [objetoImagen] => Array
+        (
+            [name] => Array
+                (
+                    [0] => foto de ramon.jpg
+                    [1] => WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+                    [2] => WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+                    [3] => imagen.png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => foto de ramon.jpg
+                    [1] => WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+                    [2] => WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+                    [3] => imagen.png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                    [3] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php2D59.tmp
+                    [1] => C:\xampp\tmp\php2D5A.tmp
+                    [2] => C:\xampp\tmp\php2D5B.tmp
+                    [3] => C:\xampp\tmp\php2D5C.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                    [3] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 78274
+                    [1] => 223839
+                    [2] => 221820
+                    [3] => 290702
+                )
+
+        )
+
+)
+
+POST: Array
+(
+    [objetoNombre] => prueba4
+    [objetoDescripcion] => prueba4
+    [objetoPrecio] => 3
+)
+
+----------------------------------------
+Total de archivos: 4
+Procesando archivo 0: foto de ramon.jpg
+Archivo movido correctamente a: uploads/1746574736_0_foto de ramon.jpg
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 0
+Procesando archivo 1: WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+Archivo movido correctamente a: uploads/1746574736_1_WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 1
+Procesando archivo 2: WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+Archivo movido correctamente a: uploads/1746574736_2_WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 2
+Procesando archivo 3: imagen.png
+Archivo movido correctamente a: uploads/1746574736_3_imagen.png
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 3
+Petición recibida: 2025-05-07 01:38:56
+FILES: Array
+(
+    [objetoImagen] => Array
+        (
+            [name] => Array
+                (
+                    [0] => foto de ramon.jpg
+                    [1] => WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+                    [2] => WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+                    [3] => imagen.png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => foto de ramon.jpg
+                    [1] => WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+                    [2] => WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+                    [3] => imagen.png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                    [3] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php2D7C.tmp
+                    [1] => C:\xampp\tmp\php2D7D.tmp
+                    [2] => C:\xampp\tmp\php2D7E.tmp
+                    [3] => C:\xampp\tmp\php2D8F.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                    [3] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 78274
+                    [1] => 223839
+                    [2] => 221820
+                    [3] => 290702
+                )
+
+        )
+
+)
+
+POST: Array
+(
+    [objetoNombre] => prueba4
+    [objetoDescripcion] => prueba4
+    [objetoPrecio] => 3
+)
+
+----------------------------------------
+Total de archivos: 4
+Procesando archivo 0: foto de ramon.jpg
+Archivo movido correctamente a: uploads/1746574736_0_foto de ramon.jpg
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 0
+Procesando archivo 1: WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+Archivo movido correctamente a: uploads/1746574736_1_WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 1
+Procesando archivo 2: WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+Archivo movido correctamente a: uploads/1746574736_2_WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 2
+Procesando archivo 3: imagen.png
+Archivo movido correctamente a: uploads/1746574736_3_imagen.png
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 3
+Petición recibida: 2025-05-07 01:39:11
+FILES: Array
+(
+    [objetoImagen] => Array
+        (
+            [name] => Array
+                (
+                    [0] => foto de ramon.jpg
+                    [1] => WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+                    [2] => WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+                    [3] => imagen.png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => foto de ramon.jpg
+                    [1] => WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+                    [2] => WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+                    [3] => imagen.png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                    [3] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php66E0.tmp
+                    [1] => C:\xampp\tmp\php66E1.tmp
+                    [2] => C:\xampp\tmp\php66E2.tmp
+                    [3] => C:\xampp\tmp\php66F2.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                    [3] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 78274
+                    [1] => 223839
+                    [2] => 221820
+                    [3] => 290702
+                )
+
+        )
+
+)
+
+POST: Array
+(
+    [objetoNombre] => prueba4
+    [objetoDescripcion] => prueba4
+    [objetoPrecio] => 3
+)
+
+----------------------------------------
+Total de archivos: 4
+Procesando archivo 0: foto de ramon.jpg
+Archivo movido correctamente a: uploads/1746574751_0_foto de ramon.jpg
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 0
+Procesando archivo 1: WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+Archivo movido correctamente a: uploads/1746574751_1_WhatsApp Image 2025-04-30 at 02.13.48 (1).jpeg
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 1
+Procesando archivo 2: WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+Archivo movido correctamente a: uploads/1746574751_2_WhatsApp Image 2025-04-30 at 02.13.48.jpeg
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 2
+Procesando archivo 3: imagen.png
+Archivo movido correctamente a: uploads/1746574751_3_imagen.png
+Imagen insertada en la tabla Multimedia
+Relación establecida en ProductoMultimedia para imagen 3

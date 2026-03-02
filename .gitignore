@@ -1,0 +1,12 @@
+# Archivos de conexión local
+conexion_local.php
+
+# Carpeta de imágenes subidas
+/uploads/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Variables de entorno
+.env

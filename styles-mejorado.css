@@ -1,0 +1,556 @@
+/*////////////HOME////////////////*/
+
+body.home-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1ebf1;
+    text-align: center;
+    padding-top: 80px; /* espacio para el header fijo */
+}
+
+body.home-page header {
+    background: #B2E3D3;
+    color: white;
+    padding: 10px 20px;
+    position: fixed; /* Fijo para mantenerlo al hacer scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Para que el nombre y los enlaces estén en columnas */
+    align-items: center; /* Centra horizontalmente los elementos */
+}
+
+body.home-page header h1 {
+    margin: 5px 0;
+    color: #333;
+}
+
+body.home-page nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+body.home-page .nav-links {
+    display: flex; /* Muestra los enlaces en formato horizontal */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centra los enlaces horizontalmente */
+}
+
+body.home-page .nav-links li {
+    margin: 0 15px;
+}
+
+body.home-page nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+body.home-page nav ul li a:hover {
+    color: #0077B6;
+}
+
+/* Contenedor principal - SOLUCIÓN para mostrar elementos en horizontal */
+body.home-page .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Items */
+body.home-page .item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 15px;
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.home-page .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+body.home-page .item h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+body.home-page .descripcion {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+body.home-page .precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0077B6;
+    margin: 10px 0;
+}
+
+/* Botones e interacciones */
+body.home-page .item-buttons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+body.home-page .btn-agregar, body.home-page .btn-ver {
+    flex: 1;
+}
+
+body.home-page .item img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    max-height: 180px; /* Limita la altura máxima de la imagen */
+    object-fit: contain; /* Asegura que la imagen se ajuste sin recortarse */
+    border-radius: 8px;
+}
+
+body.home-page input, body.home-page textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+body.home-page button, body.home-page .btn {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #97dfea;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    color: #0077B6;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+body.home-page button:hover, body.home-page .btn:hover {
+    background-color: #7bd0e0;
+}
+
+/* Carrito */
+body.home-page .cart-icon {
+    position: fixed; /* Posiciona el carrito en la esquina superior derecha */
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+body.home-page .cart-dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    z-index: 999;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+body.home-page .cart-dropdown.active {
+    display: block;
+}
+
+body.home-page .cart-dropdown p {
+    color: black;
+    margin: 5px 0;
+}
+
+body.home-page .checkout-btn {
+    width: 100%;
+    background-color: #0077B6;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Barra de búsqueda y filtros */
+body.home-page .search-bar {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+body.home-page .search-bar input {
+    padding: 10px 15px;
+    width: 250px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    flex: 1;
+    min-width: 200px;
+}
+
+body.home-page .search-bar button {
+    padding: 10px 15px;
+    border-radius: 25px;
+    width: auto;
+    min-width: 100px;
+    border: 1px solid transparent;
+    background-color: #97dfea;
+    color: #0077B6;
+    cursor: pointer;
+}
+
+body.home-page .orden {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+body.home-page .orden select {
+    padding: 8px 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+/* Estilos para el carrusel */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    height: 200px; /* Ajusta según sea necesario */
+}
+
+.carousel-arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-arrow {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.carousel-dots button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: #ccc;
+    cursor: pointer;
+}
+
+.carousel-dots button.active {
+    background: #333;
+}
+
+
+
+
+
+
+
+
+
+body.home-page .rating {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+body.home-page .rating select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+body.home-page .calificacion-display {
+    margin-left: 5px;
+    font-size: 16px;
+    color: #FFD700;
+}
+
+/* Lightbox (imagen ampliada) */
+body.home-page .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+body.home-page .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+body.home-page .lightbox.open {
+    display: flex;
+}
+
+/* Modal de detalles */
+body.home-page .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+}
+
+body.home-page .modal-content {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 800px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+body.home-page .cerrar-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+}
+
+body.home-page #detalles-objeto h2 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+body.home-page .detalles-flex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+body.home-page .detalles-imagenes {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+}
+
+body.home-page .imagen-detalle {
+    width: 100%;
+    border-radius: 8px;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+body.home-page .carrusel-detalle {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+body.home-page .carrusel-imagenes {
+    display: flex;
+    transition: transform 0.4s ease;
+    width: 100%;
+}
+
+body.home-page .carrusel-imagenes img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: contain;
+    border-radius: 8px;
+    max-height: 400px;
+}
+
+body.home-page .carrusel-controles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+body.home-page .carrusel-controles button {
+    background-color: #97dfea;
+    color: #0077B6;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+body.home-page .detalles-info {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+}
+
+body.home-page .detalles-info p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+body.home-page .detalles-info .btn-agregar {
+    width: 200px;
+    margin-top: 20px;
+}
+
+body.home-page .sin-productos {
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body.home-page .search-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    body.home-page .orden {
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    body.home-page .detalles-flex {
+        flex-direction: column;
+    }
+    
+    body.home-page .item {
+        width: 100%;
+        max-width: 320px;
+    }
+    
+    body.home-page .nav-links {
+        flex-wrap: wrap;
+    }
+    
+    body.home-page .nav-links li {
+        margin: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comentarios {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.comentario {
+    margin-bottom: 15px;
+}
+
+.comentario p {
+    margin: 5px 0;
+}
+
+#form-comentario textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#form-comentario button {
+    padding: 5px 15px;
+}

@@ -1,0 +1,322 @@
+/*////////////REGISTRO////////////////*/
+ 
+body.Registro {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url(Fondo_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FormsReg {
+    background: #E0E0E0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.avatar-preview {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px auto;
+}
+input, select{
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+body.Registro button {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid;
+    background-color: #97dfea;
+    border-radius: 25px;
+    color: #0077B6;
+}
+
+
+
+
+
+
+
+
+
+/*////////////OBJETOS////////////////*/
+
+/* Mantenemos los estilos base que ya tienes */
+.contenedor {
+    background-color: white;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contenedor button{
+    width: 20%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #97dfea;
+    border: 1px solid;
+    border-radius: 25px;
+    color: #0077B6;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contenedor button:hover {
+    background-color: #7acfe0;
+}
+
+body.objetos {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1ebf1;
+    text-align: center;
+    padding-top: 80px; /* espacio para el header fijo */
+}
+
+body.objetos header {
+    background: #B2E3D3;
+    color: white;
+    padding: 10px 20px;
+    position: fixed; /* Fijo para mantenerlo al hacer scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Para que el nombre y los enlaces estén en columnas */
+    align-items: center; /* Centra horizontalmente los elementos */
+}
+
+body.objetos header h1 {
+    margin: 5px 0;
+    color: #333;
+}
+
+body.objetos nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+body.objetos .nav-links {
+    display: flex; /* Muestra los enlaces en formato horizontal */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centra los enlaces horizontalmente */
+}
+
+body.objetos .nav-links li {
+    margin: 0 15px;
+}
+
+body.objetos nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+body.objetos nav ul li a:hover {
+    color: #0077B6;
+}
+
+/* Nuevos estilos para textbox y formularios */
+
+/* Centra los formularios dentro de sus contenedores */
+.formulario, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilo para los campos de texto y textareas */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 2px solid #B2E3D3;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+    background-color: #f9fdff;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+/* Estilo para cuando los campos están en foco */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #97dfea;
+    box-shadow: 0 0 8px rgba(151, 223, 234, 0.5);
+    background-color: white;
+}
+
+/* Estilo para el campo de subir archivo */
+input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9fdff;
+    border: 2px dashed #B2E3D3;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Ajustes específicos para textarea */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    border-radius: 15px;
+}
+
+/* Estilo para labels */
+label {
+    display: block;
+    text-align: left;
+    width: 90%;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Estilo para el botón de enviar en formularios */
+.btn {
+    background-color: #97dfea;
+    color: #0077B6;
+    border: 1px solid;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #7acfe0;
+}
+
+/* Estilo para la sección de información */
+#informar.contenedor {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+/* Para pantallas más pequeñas */
+@media (max-width: 768px) {
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    textarea,
+    input[type="file"],
+    label {
+        width: 100%;
+    }
+    
+    .contenedor {
+        padding: 1.5rem;
+        max-width: 90%;
+    }
+    
+    .btn, .contenedor button {
+        width: 60%;
+    }
+}
+
+
+
+/*////////////INICIAR SESION////////////////*/
+
+
+
+
+.upload-page {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url(fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.upload-page h2 {
+    text-align: center;
+}
+
+.upload-page form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container {
+    background: #E0E0E0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: left;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px auto;
+    display: none;
+}
+
+.upload-page input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #97dfea;
+    border-radius: 25px;
+}
+
+.upload-page button {
+    width: 85%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    background-color: #97dfea;
+    color: #0077B6;
+    font-weight: bold;
+    cursor: pointer;
+}
