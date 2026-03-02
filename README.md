@@ -43,22 +43,33 @@ El proyecto utiliza una base de datos relacional con tablas como:
 
 
 ### Panel de Comentarios
-![Admin](imagenes/comentario.png)
+<p align="center">
+  <img src="imagenes/comentario.png" width="500">
+</p>
 
 ### Sistema de Chat
-![Chat](imagenes/chat.png)
+<p align="center">
+  <img src="imagenes/chat.png" width="500">
+</p>
 
 ### Sistema de calificacion 
-![Chat](imagenes/calificacion.png)
+<p align="center">
+  <img src="imagenes/calificacion.png" width="500">
+</p>
 
 ### Video de sistema de busqueda 
 [![Ver video](imagenes/video_busqueda.png)](https://www.youtube.com/watch?v=-shQEpLznq0)
 
 ### Sistema de Carrito Funcional
-![Chat](imagenes/carrito.png)
+<p align="center">
+  <img src="imagenes/carrito.png" width="500">
+</p>
 
 ### Sistema de pago 
-![Chat](imagenes/pago.png,pago2.png)
+<p align="center">
+  <img src="imagenes/pago.png" width="500">
+    <img src="imagenes/pago2.png" width="500">
+</p>
 
 
 
