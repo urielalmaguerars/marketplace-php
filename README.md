@@ -48,16 +48,13 @@ El proyecto utiliza una base de datos relacional con tablas como:
 ![Chat](imagenes/calificacion.png)
 
 ### Sistema de busqueda 
-![Chat](imagenes/busqueda.png)
-
-### Sistema de Subir Post
-![Chat](imagenes/post.png)
+![Chat](imagenes/busqueda.mp4)
 
 ### Sistema de Carrito Funcional
 ![Chat](imagenes/carrito.png)
 
 ### Sistema de pago 
-![Chat](imagenes/pago.png)
+![Chat](imagenes/pago.png,pago2.png)
 
 
 
